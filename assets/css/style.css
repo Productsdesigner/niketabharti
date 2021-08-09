@@ -2102,16 +2102,16 @@ Portfolio Start
   position: relative;
   overflow: hidden;
   
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 
 .gallery-item-content .item-thumbnail .content-overlay {
   position: absolute;
-  top: 7%;
-  left: 5%;
-  width: 90%;
-  height: 86%;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height:100%;
   opacity: 0;
   transform: scale(0);
   background: #252c48;
@@ -2119,7 +2119,7 @@ Portfolio Start
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 0px;
   -webkit-transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
   -o-transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
   transition: all 0.4s cubic-bezier(0.57, 0.21, 0.69, 1.25);
@@ -2599,4 +2599,7 @@ CONTACT INFO AREA End
   width: 25px;
   height: 25px;
   margin: 0 5px;
+}
+a.email img {
+  margin-top: 9px;
 }
